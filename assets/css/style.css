@@ -1,3 +1,10 @@
+/* Font family class for Bebas Neue */
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
@@ -16,12 +23,17 @@ body {
 
 /* Header */
 header {
-    background-color: blue;
+    background-color: rgb(128, 128, 128);
+}
+
+header.bebas-neue-regular h1 {
+    font-size: 100px;
+    color: white;
 }
 
 /* Main Content*/
 main {
-    background-color: green;
+    background-color: whitesmoke;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
 }
@@ -30,3 +42,4 @@ main {
 footer {
     background-color: red;
 }
+
