@@ -24,10 +24,14 @@ body {
 /* Header */
 header {
     background-color: rgb(128, 128, 128);
+    padding: 0 1rem;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 1.5px 2px black;
 }
 
 #logo {
-    font-size: 100px;
+    font-size: 40px;
     color: white;
 }
 
