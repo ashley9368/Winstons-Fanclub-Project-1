@@ -12,18 +12,9 @@
     box-sizing: border-box;
 }
 
-/* General styles */
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    /* Generic project styles */
-    color: #454343;
-}
-
 /* Header */
 header {
-    background-color: #3a3a3a;
+    background-color: #595959;
     padding: 0 1rem;
     position: fixed;
     width: 100%;
@@ -44,9 +35,23 @@ h1 {
     letter-spacing: 2px;
 }
 
-nav ul li {
-    color: #ffffff;
+#navbar {
+    margin-right: 1rem;
 }
+
+#navbar ul {
+    list-style-type: none;
+    display: flex;
+    gap: 2.7rem;
+}
+
+#navbar ul li a {
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+
 /* Main Content*/
 main {
     background-color: whitesmoke;
