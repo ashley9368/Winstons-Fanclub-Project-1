@@ -26,7 +26,7 @@ header {
     background-color: rgb(128, 128, 128);
 }
 
-header.bebas-neue-regular h1 {
+#logo {
     font-size: 100px;
     color: white;
 }
