@@ -74,10 +74,18 @@ main {
 }
 
 main p {
-    font-size: 14px;
+    font-size: 15px;
     padding-left: 30px;
     padding-top: 55px;
     padding-right: 30px;
+}
+
+.paragraph-2 {
+    margin-top: 160px;
+}
+
+.paragraph-3 {
+    padding-top: 20px;
 }
 
 
@@ -116,18 +124,18 @@ footer {
         letter-spacing: 2px;
         font-size: 30px;
         text-shadow: -1px -1px 0 rgb(0, 0, 0);
+        font-size: 30px;
     }
 
     header {
         padding-left: 2rem;
-        padding-top: 1rem;
     }
 
     /* Main Content */
     main p {
-        font-size: 30px;
-        padding-left: 100px;
-        padding-right: 100px;
+        font-size: 26px;
+        padding-left: 115px;
+        padding-right: 115px;
         padding-top: 140px;
     }
     
@@ -135,6 +143,7 @@ footer {
     footer {
         padding: 20px;
     }
+
     #social-media {
     justify-content: space-between;
     padding-left: 120px;
@@ -142,4 +151,29 @@ footer {
     font-size: 26px;
     max-width: none;
     }
+    
+
+}
+
+/* Media query: tablets and larger (1440px and up) */
+@media screen and (min-width: 1440px) {
+    #navbar ul li a {
+        font-size: 40px;
+    }
+    #logo {
+        font-size: 90px;
+        padding-left: 20px;
+    }
+    header {
+    height: 170px;
+    }
+
+    main p {
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+
+.paragraph-2 {
+    padding-top: 325px;
+}
 }
