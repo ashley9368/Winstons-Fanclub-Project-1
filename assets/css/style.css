@@ -80,9 +80,7 @@ main p {
     padding-right: 30px;
 }
 
-p1 {
-    text-size-adjust: 10px;
-}
+
 
 /* Footer */
 footer {
@@ -123,5 +121,25 @@ footer {
     header {
         padding-left: 2rem;
         padding-top: 1rem;
+    }
+
+    /* Main Content */
+    main p {
+        font-size: 30px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 140px;
+    }
+    
+    /* Footer */
+    footer {
+        padding: 20px;
+    }
+    #social-media {
+    justify-content: space-between;
+    padding-left: 120px;
+    padding-right: 120px;
+    font-size: 26px;
+    max-width: none;
     }
 }
