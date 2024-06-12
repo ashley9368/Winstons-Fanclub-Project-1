@@ -67,34 +67,41 @@ h1 {
 
 /* Main Content*/
 main {
-    background-color: rgb(255, 210, 210);
+    background-color: rgb(231, 231, 231);
     flex: 1 0 auto; /* Make main element take up any surplus space to push footer down */
     color: black;
     padding-top: 70px;
 }
 
-main p {
+.paragraph-1 {
     font-size: 15px;
     padding-left: 30px;
-    padding-top: 55px;
+    padding-top: 20px;
     padding-right: 30px;
 }
 
 .paragraph-2 {
-    margin-top: 160px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 220px;
 }
 
 .paragraph-3 {
-    padding-top: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 40px;
+    margin-top: -20px
 }
 
+.image-container {
+    display: flex;
+    margin-top: -360px;
+
+}
 .iphone-img {
     max-width: 50%;
     height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -350px;
+    margin-left: 60px;
 }
 
 /* Footer */
@@ -140,12 +147,38 @@ footer {
     }
 
     /* Main Content */
-    main p {
+    .paragraph-1 {
         font-size: 26px;
         padding-left: 115px;
         padding-right: 115px;
-        padding-top: 140px;
+        padding-top: 100px;
     }
+
+    .paragraph-2 {
+        font-size: 26px;
+        padding-left: 100px;
+        padding-right: 100px;
+        margin-top: 400px;
+    }
+    
+    .paragraph-3 {
+        font-size: 26px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+
+    .image-container {
+        margin-left: 190px;
+        margin-right: 140px;
+        margin-top: -520px;
+    }
+
+    .iphone-img {
+        max-width: 55%;
+        height: auto;
+    }
+
     
     /* Footer */
     footer {
@@ -176,7 +209,7 @@ footer {
     height: 170px;
     }
 
-    main p {
+    .paragraph-1 {
         padding-left: 300px;
         padding-right: 300px;
     }
