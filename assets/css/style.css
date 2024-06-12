@@ -209,12 +209,36 @@ footer {
     height: 170px;
     }
 
+    /* Main Content */
     .paragraph-1 {
-        padding-left: 300px;
-        padding-right: 300px;
+        font-size: 30px;
+        padding-left: 225px;
+        padding-right: 180px;
+        margin-top: 55px;
+
     }
 
-.paragraph-2 {
-    padding-top: 325px;
-}
+    .paragraph-2 {
+        font-size: 30px;
+        padding-left: 225px;
+        padding-right: 180px;
+
+    }
+    
+    .paragraph-3 {
+        font-size: 30px;
+        padding-left: 225px;
+        padding-right: 250px;
+    }
+
+
+    .image-container {
+        padding-left: 290px;
+        padding-right: 80px;
+        margin-top: -500px;
+    }
+
+    .iphone-img {
+        max-width: 250px;
+    }
 }
