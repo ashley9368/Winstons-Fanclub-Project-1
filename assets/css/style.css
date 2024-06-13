@@ -129,6 +129,16 @@ main {
     margin-top: 10px;
 }
 
+.adult-churchill-img {
+    max-width: 140px;
+}
+
+.image-container-3 {
+    margin-left: 70px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
 /* Footer */
 footer {
     background-color: rgb(75, 146, 239);
