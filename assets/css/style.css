@@ -93,15 +93,40 @@ main {
     margin-top: -20px
 }
 
+#history-paragraph-1 {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+}
+
+#history-paragraph-2 {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+}
+
+
+/*Image on home screen*/
 .image-container {
     display: flex;
     margin-top: -360px;
 
 }
+
 .iphone-img {
     max-width: 50%;
     height: auto;
     margin-left: 60px;
+}
+
+/* Images on history screen */
+.young-churchill-img {
+    max-width: 75%;
+}
+
+.image-container-2 {
+    margin-left: 55px;
+    margin-top: 10px;
 }
 
 /* Footer */
