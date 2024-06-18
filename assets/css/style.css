@@ -1,3 +1,12 @@
+/* Google Fonts class for lato */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.lato-thin {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
 /* Font family class for Bebas Neue */
 .bebas-neue-regular {
     font-family: "Bebas Neue", sans-serif;
@@ -78,44 +87,50 @@ main {
     padding-left: 30px;
     padding-top: 20px;
     padding-right: 30px;
+    font-family: "Lato", sans-serif;
 }
 
 .paragraph-2 {
     padding-right: 30px;
     padding-left: 30px;
     margin-top: 220px;
+    font-family: "Lato", sans-serif;
 }
 
 .paragraph-3 {
     padding-right: 30px;
     padding-left: 30px;
     padding-top: 40px;
-    margin-top: -20px
+    margin-top: -20px;
+    font-family: "Lato", sans-serif;
 }
 
 #history-paragraph-1 {
     padding-left: 25px;
     padding-right: 25px;
     padding-top: 15px;
+    font-family: "Lato", sans-serif;
 }
 
 #history-paragraph-2 {
     padding-left: 25px;
     padding-right: 25px;
     padding-top: 15px;
+    font-family: "Lato", sans-serif;
 }
 
 #history-paragraph-3 {
     padding-left: 25px;
     padding-right: 25px;
     padding-top: 15px;
+    font-family: "Lato", sans-serif;
 }
 
 
 /*Image on home screen*/
 .image-container {
     display: flex;
-    margin-top: -360px;
+    margin-top: -370px;
 
 }
 
