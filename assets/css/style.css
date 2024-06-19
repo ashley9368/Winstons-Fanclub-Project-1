@@ -84,28 +84,16 @@ main {
     /* Make main element take up any surplus space to push footer down */
     color: black;
     padding-top: 70px;
+    padding-bottom: 20px;
 }
 
-.paragraph-1 {
-    font-size: 15px;
+.paragraph-1,
+.paragraph-2,
+.paragraph-3 {
+    font-size: 14px;
     padding-left: 30px;
     padding-top: 20px;
     padding-right: 30px;
-    font-family: "Lato", sans-serif;
-}
-
-.paragraph-2 {
-    padding-right: 30px;
-    padding-left: 30px;
-    margin-top: 220px;
-    font-family: "Lato", sans-serif;
-}
-
-.paragraph-3 {
-    padding-right: 30px;
-    padding-left: 30px;
-    padding-top: 40px;
-    margin-top: -20px;
     font-family: "Lato", sans-serif;
 }
 
@@ -133,17 +121,18 @@ main {
 /* Buttons for history and signup */
 .boxed-section {
     display: flex;
-    margin-top: 7px;
     padding: 5px;
     flex-direction: column;
     align-items: center;
+    margin-top: 20px;
 }
 
 .button-box {
     margin-bottom: 5px;
 }
 
-.button-s, .button-h {
+.button-s,
+.button-h {
     display: inline-block;
     padding: 10px 20px;
     text-decoration: none;
@@ -152,16 +141,15 @@ main {
     border-radius: 5px;
 }
 
-.button.s:hover, .button-h:hover {
+.button.s:hover,
+.button-h:hover {
     background-color: #0056b3;
     border-color: #0056b3;
 }
 
 /*Image on home screen*/
 .image-container {
-    display: flex;
-    margin-top: -475px;
-
+    margin-top: 20px;
 }
 
 .iphone-img {
@@ -202,7 +190,7 @@ main {
 
 /* Footer */
 footer {
-    background-color: rgb(75, 146, 239);
+    background-color: #595959;
     padding: 10px;
 }
 
@@ -243,36 +231,62 @@ footer {
     }
 
     /* Main Content */
-    .paragraph-1 {
-        font-size: 26px;
-        padding-left: 115px;
-        padding-right: 115px;
-        padding-top: 100px;
+    .paragraph-1,
+    .paragraph-2,
+    .paragraph-3 {
+        font-size: 25px;
+        margin-left: 50px;
+        margin-top: 70px;
+        margin-right: 50px;
+        font-family: "Lato", sans-serif;
+
     }
 
     .paragraph-2 {
-        font-size: 26px;
-        padding-left: 100px;
-        padding-right: 100px;
-        margin-top: 400px;
+        margin-top: 10px;
     }
 
-    .paragraph-3 {
-        font-size: 26px;
-        padding-left: 100px;
-        padding-right: 100px;
+    /* Buttons for history and signup */
+    .boxed-section {
+        display: flex;
+        padding: 50px;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
     }
 
+    .button-box {
+        margin-bottom: 5px;
+    }
 
+    .button-s,
+    .button-h {
+        display: inline-block;
+        padding: 20px 30px;
+        text-decoration: none;
+        color: #ffffff;
+        background-color: #007bff;
+        border-radius: 5px;
+        font-size: 25px;
+    }
+
+    .button.s:hover,
+    .button-h:hover {
+        background-color: #0056b3;
+        border-color: #0056b3;
+    }
+
+    /*Image for home screen*/
     .image-container {
-        margin-left: 190px;
-        margin-right: 140px;
-        margin-top: -520px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 0px;
     }
 
     .iphone-img {
-        max-width: 55%;
-        height: auto;
+        max-width: 30%;
+        margin-left: 250px;
+        margin-top: 25px;
     }
 
     /* History Page */
