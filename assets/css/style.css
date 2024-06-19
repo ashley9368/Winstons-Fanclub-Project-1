@@ -374,35 +374,65 @@ footer {
     }
 
     /* Main Content */
-    .paragraph-1 {
+    .paragraph-1,
+    .paragraph-2,
+    .paragraph-3 {
         font-size: 30px;
-        padding-left: 225px;
-        padding-right: 180px;
-        margin-top: 55px;
+        margin-left: 300px;
+        margin-top: 110px;
+        margin-right: 125px;
+        font-family: "Lato", sans-serif;
 
     }
 
     .paragraph-2 {
-        font-size: 30px;
-        padding-left: 225px;
-        padding-right: 180px;
-
+        margin-left: 50px;
+        margin-right: 125px;
+        margin-top: 10px;
     }
 
     .paragraph-3 {
-        font-size: 30px;
-        padding-left: 225px;
-        padding-right: 250px;
+        margin-left: 50px;
+        margin-top: 10px;
     }
-
-
+    
+    /* Image home screen */
     .image-container {
-        padding-left: 290px;
-        padding-right: 80px;
-        margin-top: -500px;
+        padding-left: 250px;
+        margin-top: 10px;
     }
 
     .iphone-img {
-        max-width: 250px;
+        max-width: 30%;
     }
+
+        /* Buttons for history and signup */
+        .boxed-section {
+            padding: 50px;
+            flex-direction: column;
+            margin-top: 20px;
+            text-align: center;
+        }
+    
+        .button-box {
+            margin-bottom: 5px;
+        }
+    
+        .button-s,
+        .button-h {
+            display: inline-block;
+            padding: 20px 30px;
+            text-decoration: none;
+            color: #ffffff;
+            background-color: #007bff;
+            border-radius: 5px;
+            font-size: 25px;
+            margin-left: -340px;
+        }
+    
+        .button.s:hover,
+        .button-h:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
 }
