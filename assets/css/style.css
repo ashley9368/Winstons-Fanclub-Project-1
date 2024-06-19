@@ -29,13 +29,6 @@ html {
     flex-direction: column;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    padding-top: 2px;
-}
-
 /* Header */
 header {
     background-color: #595959;
@@ -43,8 +36,6 @@ header {
     position: fixed;
     width: 100%;
     box-shadow: 0 1.5px 2px black;
-    display: flex;
-    justify-content: space-between;
 }
 
 header a {
@@ -60,6 +51,10 @@ header a {
 
 h1 {
     letter-spacing: 2px;
+}
+
+.logo {
+    width: fit-content;
 }
 
 .active {
