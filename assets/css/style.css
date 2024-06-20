@@ -198,6 +198,8 @@ footer {
     #navbar ul {
         justify-content: flex-end;
         gap: 2rem;
+        margin-left: 435px;
+        margin-top: 10px;
     }
 
     #logo {
