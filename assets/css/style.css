@@ -308,21 +308,21 @@ footer {
     }
 
     .adult-churchill-img {
-        max-width: 300px;
+        max-width: 450px;
     }
 
     .image-container-3 {
-        margin-left: 210px;
+        margin-left: 160px;
         margin-right: 210px;
         margin-top: 25px;
     }
 
     .later-churchill-img {
-        max-width: 325px;
+        max-width: 400px;
     }
 
     .image-container-4 {
-        padding-left: 210px;
+        padding-left: 175px;
         padding-right: 60px;
         padding-top: 25px;
         padding-bottom: 25px;
@@ -368,28 +368,28 @@ footer {
     .paragraph-2,
     .paragraph-3 {
         font-size: 30px;
-        margin-left: 250px;
-        margin-top: 110px;
-        margin-right: 125px;
+        margin-left: 325px;
+        margin-top: 140px;
+        margin-right: 250px;
         font-family: "Lato", sans-serif;
 
     }
 
     .paragraph-2 {
-        margin-left: -90px;
+        margin-left: -275px;
         margin-right: 125px;
         margin-top: 10px;
     }
 
     .paragraph-3 {
-        margin-left: -90px;
+        margin-left: -275px;
         margin-top: 10px;
-        margin-right: 125px;
+        margin-right: 325px;
     }
     
     /* Image home screen */
     .image-container {
-        padding-left: 350px;
+        padding-left: 600px;
         margin-top: 10px;
     }
 
@@ -397,12 +397,13 @@ footer {
         max-width: 25%;
     }
 
-        /* Buttons for history and signup */
+        /* Buttons for history */
         .boxed-section {
             padding: 50px;
             flex-direction: column;
             margin-top: 20px;
             text-align: center;
+            margin-left: -170px;
         }
     
         .button-box {
