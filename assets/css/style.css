@@ -60,6 +60,7 @@ h1 {
 .active {
     text-decoration: underline;
 }
+
 #navbar {
     margin-right: 1rem;
     display: flex;
@@ -82,7 +83,8 @@ h1 {
 /* Main Content*/
 main {
     background-color: rgb(231, 231, 231);
-    flex: 1 0 auto;     /* Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
+    /* Make main element take up any surplus space to push footer down */
     color: black;
     padding-top: 70px;
     padding-bottom: 20px;
@@ -98,12 +100,47 @@ main {
     font-family: "Lato", sans-serif;
 }
 
-#history-paragraph-1, #history-paragraph-2, #history-paragraph-3 {
+#history-paragraph-1,
+#history-paragraph-2,
+#history-paragraph-3 {
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 15px;
     font-family: "Lato", sans-serif;
     font-size: 14px;
+}
+
+/*Image on home screen*/
+.iphone-img {
+    max-width: 50%;
+    height: auto;
+    margin-left: 70px;
+}
+
+/* Form */
+#signup-form {
+    color: #414141;
+    background-color: rgba(60, 60, 60, );
+    padding: 50px;
+}
+
+#signup-form>h2 {
+    color: #414141;
+    margin-bottom: 20px;
+}
+
+.join-button {
+    margin-top: 20px;
+}
+
+/* Image on signup page */
+.churchill-quote {
+    max-width: 300px;
+    margin-left: -100px;
+    margin-top: 50px;
+    position: fixed;
+    margin-top: 96px;
+    z-index: 0;
 }
 
 /* Buttons for history and signup */
@@ -135,50 +172,17 @@ main {
     border-color: #595959;
 }
 
-/*Image on home screen*/
-.image-container {
-    margin-top: 20px;
-}
-
-.iphone-img {
-    max-width: 50%;
-    height: auto;
-    margin-left: 70px;
-}
-
 /* Images on history screen */
 .young-churchill-img {
     max-width: 85%;
-}
-
-.image-container-2 {
-    margin-left: 30px;
-    margin-top: 10px;
 }
 
 .adult-churchill-img {
     max-width: 225px;
 }
 
-.image-container-3 {
-    margin-left: 30px;
-    margin-right: 20px;
-    margin-top: 10px;
-}
-
 .later-churchill-img {
     max-width: 215px;
-}
-
-.image-container-4 {
-    padding-left: 30px;
-    padding-right: 60px;
-    padding-top: 15px;
-}
-
-/* Form */
-#signup {
-    background-image: url("")
 }
 
 /* Footer */
@@ -244,6 +248,33 @@ footer {
         margin-top: 10px;
     }
 
+    /* Form */
+    #signup-form {
+        color: #414141;
+        background-color: rgba(60, 60, 60, );
+        text-align: center;
+        margin-top: 80px;
+        font-size: 20px;
+    }
+
+    #signup-form>h2 {
+        color: #414141;
+        font-size: 40px;
+    }
+
+    .join-button {
+        margin-top: 20px;
+    }
+
+    /* Image on signup page */
+    .churchill-quote {
+        max-width: 600px;
+        margin-left: -450px;
+        margin-top: 100px;
+        position: fixed;
+        z-index: 0;
+    }
+
     /* Buttons for history and signup */
     .boxed-section {
         display: flex;
@@ -275,12 +306,6 @@ footer {
     }
 
     /*Image for home screen*/
-    .image-container {
-        margin-left: 5px;
-        margin-right: 5px;
-        margin-top: 0px;
-    }
-
     .iphone-img {
         max-width: 30%;
         margin-left: 250px;
@@ -289,14 +314,17 @@ footer {
 
     /* History Page */
 
-    #history-paragraph-1, #history-paragraph-2, #history-paragraph-3 {
+    #history-paragraph-1,
+    #history-paragraph-2,
+    #history-paragraph-3 {
         padding-top: 110px;
         padding-left: 60px;
         padding-right: 60px;
         font-size: 25px;
     }
 
-    #history-paragraph-2, #history-paragraph-3 {
+    #history-paragraph-2,
+    #history-paragraph-3 {
         margin-top: -100px;
     }
 
@@ -304,9 +332,6 @@ footer {
 
     .young-churchill-img {
         max-width: 75%;
-    }
-
-    .image-container-2 {
         margin-left: 150px;
         margin-top: 25px;
     }
@@ -315,21 +340,8 @@ footer {
         max-width: 450px;
     }
 
-    .image-container-3 {
-        margin-left: 160px;
-        margin-right: 210px;
-        margin-top: 25px;
-    }
-
     .later-churchill-img {
         max-width: 400px;
-    }
-
-    .image-container-4 {
-        padding-left: 175px;
-        padding-right: 60px;
-        padding-top: 25px;
-        padding-bottom: 25px;
     }
 
     /* Footer */
@@ -390,45 +402,40 @@ footer {
         margin-top: 10px;
         margin-right: 325px;
     }
-    
-    /* Image home screen */
-    .image-container {
-        padding-left: 600px;
-        margin-top: 10px;
-    }
 
+    /* Image home screen */
     .iphone-img {
         max-width: 25%;
     }
 
-        /* Buttons for history */
-        .boxed-section {
-            padding: 50px;
-            flex-direction: column;
-            margin-top: 20px;
-            text-align: center;
-            margin-left: -170px;
-        }
-    
-        .button-box {
-            margin-bottom: 5px;
-        }
-    
-        .button-s,
-        .button-h {
-            display: inline-block;
-            padding: 20px 30px;
-            text-decoration: none;
-            color: #ffffff;
-            background-color: #595959;
-            border-radius: 5px;
-            font-size: 25px;
-            margin-left: -300px;
-        }
-    
-        .button.s:hover,
-        .button-h:hover {
-            background-color: #595959;
-            border-color: #595959;
-        }
+    /* Buttons for history */
+    .boxed-section {
+        padding: 50px;
+        flex-direction: column;
+        margin-top: 20px;
+        text-align: center;
+        margin-left: -170px;
+    }
+
+    .button-box {
+        margin-bottom: 5px;
+    }
+
+    .button-s,
+    .button-h {
+        display: inline-block;
+        padding: 20px 30px;
+        text-decoration: none;
+        color: #ffffff;
+        background-color: #595959;
+        border-radius: 5px;
+        font-size: 25px;
+        margin-left: -300px;
+    }
+
+    .button.s:hover,
+    .button-h:hover {
+        background-color: #595959;
+        border-color: #595959;
+    }
 }
