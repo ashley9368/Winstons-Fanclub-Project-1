@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Meta tags for search engines -->
-    <meta name="description" content="Winstons Fan Club. Winston Churchill. History. World war 2. Churchill history. British history. The battle of britain">
+    <meta name="description"
+        content="Winstons Fan Club. Winston Churchill. History. World war 2. Churchill history. British history. The battle of britain">
     <meta name="keywords" content="Churchill, history, world war 2, ww2, war, fan club, Britain">
-    
+
     <!-- Title -->
     <title>Winstons Fan Club</title>
 
@@ -42,38 +43,42 @@
             </ul>
         </nav>
     </header>
-    
-    <div class="container">
+
     <!-- Main Content -->
     <main>
-        <p class="paragraph-1">
+        <!-- I took inspiration from the love running project to create the form -->
+        <section id="signup">
+            <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
+                <h2><i class="fa-solid fa-bell"></i>Sign up!</h2>
+                <label for="first-name">First Name</label>
+                <input type="text" name="first_name" id="last-name" class="text-input" required>
+                <br>
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last_name" id="last-name" class="text-input" required>
+                <br>
+                <label for="email-address">Email Address</label>
+                <input type="email" name="email_address" id="email-address" class="text-input" required>
+                <button type="submit" class="join-button">Submit</button>
 
-        </p>
-        <p class="paragraph-2">
-        </p>
-        <p class="paragraph-3">
-
-        </p>
-
-        <div class="image-container">
-        <img src="" alt="" class="">
-        </div>
+            </form>
+        </section>
     </main>
 
     <!-- Footer -->
+    <!-- I took inspiration from the love running project to create the footer -->
     <footer>
         <ul id="social-media">
             <li>
-            <a href="https://www.facebook.com/" target="_blank" rel="noopener" 
-            aria-label="Visit our facebook page (Opens a new tab)"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our facebook page (Opens a new tab)"><i class="fa-brands fa-facebook"></i></a>
             </li>
             <li>
                 <a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                aira-label="Visit our instagram page (Opens a new tab)"><i class="fa-brands fa-instagram"></i></a>
+                    aira-label="Visit our instagram page (Opens a new tab)"><i class="fa-brands fa-instagram"></i></a>
             </li>
             <li>
                 <a href="https://www.twitter.com/" target="_blank" rel="noopener"
-                aira-label="Visit our instagram page (Opens a new tab)"><i class="fa-brands fa-twitter"></i></a>
+                    aira-label="Visit our instagram page (Opens a new tab)"><i class="fa-brands fa-twitter"></i></a>
             </li>
         </ul>
     </footer>
