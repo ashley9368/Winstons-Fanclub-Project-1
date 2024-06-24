@@ -179,15 +179,21 @@ main {
 
 /* Images on history screen */
 .young-churchill-img {
-    max-width: 85%;
+    max-width: 80%;
+    margin-left: 29px;
+    margin-top: 10px;
 }
 
 .adult-churchill-img {
     max-width: 225px;
+    margin-left: 30px;
+    margin-top: 10px;
 }
 
 .later-churchill-img {
     max-width: 215px;
+    margin-left: 30px;
+    margin-top: 10px;
 }
 
 /* Footer */
