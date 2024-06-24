@@ -197,6 +197,11 @@ main {
     margin-bottom: 15px;
 }
 
+/* I had help from chat gpt to show me how to only display this image on screens 1440 and up */
+.portrait-of-churchill-img {
+    display: none;
+}
+
 /* Footer */
 footer {
     background-color: #595959;
@@ -209,7 +214,6 @@ footer {
     justify-content: space-evenly;
     width: 100%;
     max-width: 400px;
-
 }
 
 
@@ -370,6 +374,11 @@ footer {
         margin-bottom: 30px;
     }
 
+    /* I had help from chat gpt to show me how to only display this image on screens 1440 and up */
+    .portrait-of-churchill-img {
+        display: none;
+    }
+
     /* Footer */
     footer {
         padding: 20px;
@@ -428,7 +437,7 @@ footer {
         margin-right: 325px;
     }
 
-    #history-paragraph-1, 
+    #history-paragraph-1,
     #history-paragraph-2,
     #history-paragraph-3 {
         margin-top: 20px;
@@ -460,57 +469,61 @@ footer {
         margin-left: 525px;
 
     }
-    
 
-        /* Form */
-        #signup-form {
-            color: #414141;
-            background-color: rgba(60, 60, 60, );
-            text-align: center;
-            margin-top: 80px;
-            font-size: 20px;
-            align-items: center;
-            flex-direction: column;
-            display: flex;
-        }
-    
-        #signup-form>h2 {
-            color: #414141;
-            font-size: 40px;
-        }
-    
-        .join-button {
-            font-size: 25;
-            padding: 10px 20px;
-            margin-top: 10px;
-        }
 
-        .text-input {
-            border-radius: 5px;
-            border: 1px;
-            margin: 10px;
-            padding: 5px;
-            margin-right: -15px;
-        }
-    
-        /* Image on signup page */
-        .churchill-quote {
-            max-width: 420px;
-            position: absolute;
-            top: 530px;
-            left: 750px;
-        }
+    /* Form */
+    #signup-form {
+        color: #414141;
+        background-color: rgba(60, 60, 60, );
+        text-align: center;
+        margin-top: 80px;
+        font-size: 20px;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+    }
+
+    #signup-form>h2 {
+        color: #414141;
+        font-size: 40px;
+    }
+
+    .join-button {
+        font-size: 25;
+        padding: 10px 20px;
+        margin-top: 10px;
+    }
+
+    .text-input {
+        border-radius: 5px;
+        border: 1px;
+        margin: 10px;
+        padding: 5px;
+        margin-right: -15px;
+    }
+
+    /* Image on signup page */
+    .churchill-quote {
+        max-width: 420px;
+        position: absolute;
+        top: 530px;
+        left: 750px;
+    }
 
     /* Images home screen */
     .iphone-img {
         max-width: 25%;
         margin-left: 325px;
+        padding: 5px;
     }
 
     .portrait-of-churchill-img {
+        display: block;
+        margin-left: 700px;
+        margin-top: -500px;
     }
 
-    /* Image on signup page */ 
+    /* Image on signup page */
     .churchill-quote {
         margin-top: 55px;
         max-width: 35%;
@@ -524,6 +537,7 @@ footer {
         flex-direction: column;
         margin-top: 20px;
         text-align: center;
+        margin-left: 70px;
     }
 
     .button-box {
