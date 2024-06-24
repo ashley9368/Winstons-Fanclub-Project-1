@@ -417,15 +417,48 @@ footer {
     }
 
     .paragraph-2 {
-        margin-left: 350px;
-        margin-right: 125px;
+        margin-left: 335px;
+        margin-right: 200px;
         margin-top: 10px;
     }
 
     .paragraph-3 {
-        margin-left: 350px;
+        margin-left: 335px;
         margin-top: 10px;
         margin-right: 325px;
+    }
+
+    #history-paragraph-1, 
+    #history-paragraph-2,
+    #history-paragraph-3 {
+        margin-top: 20px;
+        margin-left: 50px;
+        margin-right: 75px;
+        font-size: 30px;
+    }
+
+    #history-paragraph-2 {
+        margin-top: -60px;
+    }
+
+    #history-paragraph-3 {
+        margin-top: -60px;
+    }
+
+    /* Images on history page */
+
+    .young-churchill-img {
+        margin-left: 425px;
+    }
+
+    .adult-churchill-img {
+        margin-left: 500px;
+        margin-top: 50px;
+    }
+
+    .later-churchill-img {
+        margin-left: 525px;
+
     }
     
 
@@ -468,10 +501,21 @@ footer {
             left: 750px;
         }
 
-    /* Image home screen */
+    /* Images home screen */
     .iphone-img {
         max-width: 25%;
-        margin-left: 550px;
+        margin-left: 325px;
+    }
+
+    .portrait-of-churchill-img {
+    }
+
+    /* Image on signup page */ 
+    .churchill-quote {
+        margin-top: 55px;
+        max-width: 35%;
+        margin-left: -275px;
+
     }
 
     /* Buttons for history */
