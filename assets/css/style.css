@@ -216,6 +216,10 @@ footer {
     max-width: 400px;
 }
 
+#social-media a {
+    color: #ffffff
+}
+
 
 
 /* Media query: tablets and larger (768px and up) */
@@ -392,6 +396,10 @@ footer {
         max-width: none;
     }
 
+    #social-media a {
+        color: #ffffff
+    }
+
 
 }
 
@@ -559,5 +567,25 @@ footer {
     .button-h:hover {
         background-color: #595959;
         border-color: #595959;
+    }
+
+    /* Footer */
+    #social-media a {
+        color: #ffffff
+    }
+}
+
+@media screen and (min-width: 1920px) {
+
+    .portrait-of-churchill-img {
+        margin-left: 900px;
+    }
+    
+    .iphone-img {
+        margin-left: 375px;
+    }
+
+    #navbar ul {
+        margin-left: 1400px;
     }
 }
