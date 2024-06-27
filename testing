@@ -30,7 +30,7 @@ I have gone through every page on my website and checked the responsiveness for 
 
 ### Lighthouse
 
-I used Lighthouse within the Chrome Developer Tools to test the performance, accessibility, best practices and SEO of the website. (come back)
+I used Lighthouse within the Chrome Developer Tools to test the performance, accessibility, best practices and SEO of the website. 
 
 ### Desktop Results 
 
@@ -62,6 +62,7 @@ Full testing was performed on the following devices:
 
 * Desktop:
   * Computer 1920x1080px
+  * Computer 1440px
 * ipad
   * Surface Duo
   * ipad pro

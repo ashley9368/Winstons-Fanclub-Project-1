@@ -385,6 +385,10 @@ footer {
         margin-left: 70px;
     }
 
+    .churchill-quote {
+        max-width: 500px;
+    }
+
     #history-paragraph-1,
     #history-paragraph-2,
     #history-paragraph-3 {

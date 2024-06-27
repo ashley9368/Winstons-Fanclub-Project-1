@@ -10,12 +10,6 @@ Our Winston Churchill history page offers a unique and comprehensive exploration
 
 Whether you're a student, history enthusiast, or researcher, our platform provides the tools you need to delve deep into Churchill's enduring influence on global history. Join our community to connect with fellow history fans, participate in engaging discussions, and enhance your understanding of one of history's greatest leaders.
 
-Last Commit 27/06/2024 at 19:33pm
-![GitHub contributors]()
-![GitHub language count]()
-![GitHub top language]()
-![W3C Validation]()
-
 ## CONTENTS
 
 * [User Experience](#user-experience-ux)
@@ -97,12 +91,12 @@ As this is the Churchill fan club i have used images of churchill a different st
 
 ### Wireframes
 
-Wireframes were created for mobile, tablet and desktop using balsamiq.
+Wireframes were created for desktop using balsamiq.
 
-![Home Page]()
-![Difficulty Page]()
-![Game Page]()
-![High Scores Page](documentation/wireframes/highscorewireframe.webp)
+![Home Page](assets/images/bal-home-desktop.png)
+![History page](assets/images/bal-history-desktop.png)
+![signup page](assets/images/bal-signup-desktop.png)
+![Thank you page](assets/images/bal-thankyou-desktop.png)
 
 ### Features
 
@@ -115,7 +109,7 @@ All Pages on the website are responsive and have:
   ![favicon](assets/images/favy.png)
 
 * The title of the site at the top of every page. This title also acts as a link back to the home page.
-  ![The Quiz Arms Title](assets/images/home.png)
+  ![Winstons Fan Club](assets/images/home.png)
 
 #### The Home Page
 
@@ -123,15 +117,13 @@ The home page of Winstons Fan Club displays the sites name as a title in bold te
 
 ![Home page image](assets/images/home-page.png)
 
-The how to play  button opens a modal showing the user how to play the game. The modal contains a close button which will close the modal, and show the home page again.
+The history page consists of more information about Winston Churchill at different stages in his life.
 
 ![History page image](assets/images/history-page.png)
 
-The history page consists of more information about Winston Churchill at different stages in his life.
+The signup page consists of a signup form to signup for daily emails about Churchill and the Club.
 
 ![Signup page image](assets/images/signup-page.png) 
-
-The signup page consists of a signup form to signup for daily emails about Churchill and the Club.
 
 #### Future Implementations
 
@@ -141,6 +133,7 @@ In future implementations I would like to:
 2. I would like to make the home page more welcoming, And add more sub pages regarding specific important events in Churchill's life.
 3. I'd like to add a custom cursor when you hover over buttons. 
 4. I would like to add a video of one of Churchill's speeches.
+5. I would also like a much better thank you page.
 
 ### Accessibility
 
@@ -149,7 +142,7 @@ I have included image-to-text to improve accessability for visually impaired vis
 * All of the fonts used are part of the san serif font family to help those with dyslexia to read more clearly.
 * I have used similar colours throughout the site to provide the same experience for colour blind users.
 
-![contrast button](assets/images/alt-text.png)
+![alt text](assets/images/alt-text.png)
 
 ### Languages Used
 
@@ -175,8 +168,6 @@ The site is deployed using GitHub Pages - [Winstons Fan Club](https://ashley9368
 
 ## Testing
 
-Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
-
 ### Solved Bugs
 
 | No | Bug | How I solved the issue |
@@ -193,7 +184,7 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 
 ### Code Used
 
-* I used [Chat GPT](https://openai.com/index/chatgpt/) To help when i was unsure what elements to use, but never copied direct code from Chat GPT, For example, I used ChatGTP to suggest various types of fonts which would be easy to read for people with dyslexia.
+* I used [Chat GPT](https://openai.com/index/chatgpt/) To help when i was unsure what elements to use, but never copied direct code from Chat GPT, For example, I used ChatGTP to suggest various types of fonts which would be easy to read for people with dyslexia, and if i had got stuck on something i would ask which code i was missing or how can i achieve x.
 
 * I used [Code Institute love running project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+4/courseware/e805068059af42af87681032aa64053f/1da6ad13213740f1855a51d30a2375b1/) As refrence at times to adhere to good coding practice, The code that i have copied at any point has be mentioned with a comment in my code.
 
