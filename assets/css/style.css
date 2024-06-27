@@ -188,7 +188,7 @@ main {
 /* Form */
 #signup-form {
     color: #414141;
-    background-color: rgba(60, 60, 60, );
+    background-color: rgba(60, 60, 60);
     padding: 20px;
     margin: 0px auto;
     text-align: center;
@@ -308,7 +308,7 @@ footer {
         /* Form */
         #signup-form {
             color: #414141;
-            background-color: rgba(60, 60, 60, );
+            background-color: rgba(60, 60, 60);
             text-align: center;
         }
 
