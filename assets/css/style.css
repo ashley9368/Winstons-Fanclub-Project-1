@@ -43,7 +43,7 @@ header a {
 }
 
 #logo {
-    font-size: 2rem;
+    font-size: 3rem;
     color: white;
     text-shadow: -2px -2px 0 rgb(0, 0, 0);
     line-height: 1;
@@ -82,7 +82,7 @@ h1 {
 #navbar ul li a {
     color: #ffffff;
     letter-spacing: 2px;
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-shadow: -1px -1px 0 rgb(0, 0, 0);
 }
 
@@ -93,27 +93,28 @@ main {
     /* Make main element take up any surplus space to push footer down */
     color: black;
     padding-top: 70px;
-    padding-bottom: 20px;
+    padding-bottom: 80px;
 }
 
 /* Home Page */
 .paragraph-1,
 .paragraph-2,
 .paragraph-3 {
-    font-size: 14px;
+    font-size: 20px;
     margin-left: 30px;
     margin-right: 30px;
-    margin-top: 15px;
+    margin-top: 50px;
     text-align: center;
     font-family: "Lato", sans-serif;
 }
 
 /*Image on home screen*/
 .iphone-img {
-    max-width: 40%;
+    max-width: 70%;
     justify-content: center;
     display: flex;
     margin: 0 auto;
+    margin-top: 20px;
 }
 
 /* History Page */
@@ -124,7 +125,7 @@ main {
     font-family: "Lato", sans-serif;
     margin-left: 35px;
     margin-right: 35px;
-    margin-top: 15px;
+    margin-top: 40px;
     font-size: 18px;
 }
 
@@ -187,10 +188,8 @@ main {
 
 /* Form */
 #signup-form {
-    color: #414141;
-    background-color: rgba(60, 60, 60);
     padding: 20px;
-    margin: 0px auto;
+    margin: 40px auto;
     text-align: center;
 }
 
@@ -220,7 +219,7 @@ main {
     justify-content: center;
     align-items: center;
     margin: 50px auto;
-    max-width: 250px;
+    max-width: 400px;
 }
 
 /* Footer */
@@ -234,7 +233,7 @@ footer {
     display: flex;
     width: 50%;
     max-width: 400px;
-    gap: 50px;
+    gap: 100px;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
@@ -242,7 +241,7 @@ footer {
 
 #social-media a {
     color: #ffffff;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -253,9 +252,24 @@ footer {
         justify-content: center;
         display: flex;
         margin: 0 auto;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        max-width: 30%;
+        margin-top: 50px;
+        margin-bottom: 170px;
+        max-width: 55%;
+    }
+
+    #logo {
+        font-size: 4rem;
+    }
+
+    .paragraph-1,
+    .paragraph-2,
+    .paragraph-3 {
+        font-size: 25px;
+        margin-top: 80px;
+    }
+
+    main {
+        flex: 1 0 auto;
     }
     
     /* History Page */
@@ -278,6 +292,7 @@ footer {
         margin-left: 70px;
         margin-right: 70px;
         font-size: 18px;
+        margin-top: 80px;
     }
     
     .young-churchill-img {
@@ -307,14 +322,16 @@ footer {
 
         /* Form */
         #signup-form {
-            color: #414141;
-            background-color: rgba(60, 60, 60);
             text-align: center;
         }
 
     /* Footer */
+    #social-media {
+        gap: 225px;
+    }
     #social-media a {
-        color: #ffffff
+        color: #ffffff;
+        font-size: 40px;
     }
 
 
@@ -329,6 +346,15 @@ footer {
         display: flex;
         margin: 0 auto;
         margin-top: 30px; 
+        max-width: 350px;
+    }
+
+    main {
+        flex: 1 0 auto;
+    }
+
+    #logo {
+        font-size: 5rem;
     }
 
     /* History Page */
@@ -372,7 +398,11 @@ footer {
     }
 
     /* Footer */
+    #social-media {
+        gap: 500px;
+    }
     #social-media a {
-        color: #ffffff
+        color: #ffffff;
+        font-size: 40px;
     }
 }
