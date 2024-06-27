@@ -210,6 +210,6 @@ I would like to acknowledge the following people:
 
 * Kristen Cross - Another fellow on slack who has been a great help aligning me at times when ive been confused.
 
-* The code instutue tutor team, (Not all but to name afew) Roo, Holly, Oisin, Thomas.
+* The code instutue tutor team, (Not all but to name afew) Mark, Roo, Holly, Oisin, Thomas.
 
 * The Code Institute Slack channel Peer Code Review - Thank you to everyone who took the time to play the quiz and look over the code.
