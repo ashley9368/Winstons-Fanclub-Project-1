@@ -10,7 +10,7 @@ Our Winston Churchill history page offers a unique and comprehensive exploration
 
 Whether you're a student, history enthusiast, or researcher, our platform provides the tools you need to delve deep into Churchill's enduring influence on global history. Join our community to connect with fellow history fans, participate in engaging discussions, and enhance your understanding of one of history's greatest leaders.
 
-![GitHub last commit]()
+Last Commit 27/06/2024 at 19:33pm
 ![GitHub contributors]()
 ![GitHub language count]()
 ![GitHub top language]()
@@ -49,9 +49,6 @@ Whether you're a student, history enthusiast, or researcher, our platform provid
   * [Media](#media)
   * [Acknowledgments](#acknowledgments)
 
-- - -
-![The Quiz Arms Banner](documentation/the-quiz-arms-banner.png)
-
 ## User Experience (UX)
 
 #### First Time Visitor Goals
@@ -67,8 +64,6 @@ Whether you're a student, history enthusiast, or researcher, our platform provid
 #### Frequent Visitor Goals
 
 * I want to be able to sign up to become part of Churchills fan club.
-
-- - -
 
 ## Design
 

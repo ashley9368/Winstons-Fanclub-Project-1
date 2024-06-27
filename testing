@@ -24,6 +24,7 @@ I have gone through every page on my website and checked the responsiveness for 
 * [index.html](assets/images/index-w3c.png) Passed.
 * [history.html](assets/images/history-page-w3c.png) Passed.
 * [signup.html](assets/images/signup-page-w3c.png) - Passed.
+* [signup.html](assets/images/thankyou-w3c.png) - Passed.
 
 * [style.css](assets/images/ccs-code-jigsaw.png) - Passed, 3 warnings.
 
@@ -31,25 +32,29 @@ I have gone through every page on my website and checked the responsiveness for 
 
 I used Lighthouse within the Chrome Developer Tools to test the performance, accessibility, best practices and SEO of the website. (come back)
 
-### Desktop Results (come back)
+### Desktop Results 
 
 All pages of the site are achieving a score of 100 across the 4 categories.
 
-![index.html](testing/lighthouse/lighthouse-desktop-index.webp)
+![index.html](assets/images/index-lighthouse-desktop.png)
 
-![game.html](testing/lighthouse/lighthouse-desktop-game.webp)
+![history.html](assets/images/history-lighthouse-desktop.png)
 
-![highscores.html](testing/lighthouse/lighthouse-desktop-highscores.webp)
+![signup.html](assets/images/signup-lighthouse-desktop.png)
 
-### Mobile Results (come back)
+![thankyou.html](assets/images/thankyou-lighthouse-desktop.png)
+
+### Mobile Results 
 
 Each page is achieving a score of 100 for the last three categories. The performance category is achieving a score of 98 for the first three pages and a score of 99 on the 404 & 500 page.
 
-![index.html](testing/lighthouse/lighthouse-mobile-index.webp)
+![index.html](assets/images/index-lighthouse.png)
 
-![game.html](testing/lighthouse/lighthouse-mobile-game.webp)
+![history.html](assets/images/history-lighthouse.png)
 
-![highscores.html](testing/lighthouse/lighthouse-mobile-highscores.webp)
+![signup.html](assets/images/signup-lighthouse.png)
+
+![thankyou.html](assets/images/thankyou-lighthouse.png)
 
 - - -
 
@@ -68,11 +73,6 @@ Full testing was performed on the following devices:
   * Phone X.
 
 * I tested the devices on Google Chrome.
-
-(needs reviewing)
-Additional testing was taken by friends and family on a variety of devices and screen sizes. They reported no issues when playing.
-
-One tester in peer code review stated that the bottom of the play screen was cut off when testing on an iphone SE (2nd gen). I was unable to replicate this issue using google chrome developer tools.
 
 `Home Page`
 
@@ -99,3 +99,9 @@ One tester in peer code review stated that the bottom of the play screen was cut
 | History Tab | Takes user to the history page | Clicked history tab | Opens history page | Pass |
 | Form | User fills out form | Written in First name Last name and address | Writes in text boxes | Pass |
 | Submit | Takes user to thank you page | Clicked submit button | Opens thank you page | Pass |
+
+`Thank you page`
+| The title | Takes the user back to the home page | Clicked title | Home page reloads | Pass |
+| Home Tab | Takes user to the home page | Clicked home tab | Opens home page | Pass |
+| History Tab | Takes user to the history page | Clicked history tab | Opens history page | Pass |
+| signup Tab | Takes user to the history page | Clicked signup tab | Opens signup page | Pass |
