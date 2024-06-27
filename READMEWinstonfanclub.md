@@ -10,7 +10,7 @@ Our Winston Churchill history page offers a unique and comprehensive exploration
 
 Whether you're a student, history enthusiast, or researcher, our platform provides the tools you need to delve deep into Churchill's enduring influence on global history. Join our community to connect with fellow history fans, participate in engaging discussions, and enhance your understanding of one of history's greatest leaders.
 
-![GitHub last commit](at end)
+![GitHub last commit]()
 ![GitHub contributors]()
 ![GitHub language count]()
 ![GitHub top language]()
@@ -19,7 +19,6 @@ Whether you're a student, history enthusiast, or researcher, our platform provid
 ## CONTENTS
 
 * [User Experience](#user-experience-ux)
-  * [User Stories](#user-stories)
 
 * [Design](#design)
   * [Colour Scheme](#colour-scheme)
@@ -31,7 +30,6 @@ Whether you're a student, history enthusiast, or researcher, our platform provid
     * [Future Implementations](#future-implementations)
   * [Accessibility](#accessibility)
 
-* [Technologies Used](#technologies-used)
   * [Languages Used](#languages-used)
   * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
 
@@ -202,7 +200,7 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 
 * I used [Chat GPT](https://openai.com/index/chatgpt/) To help when i was unsure what elements to use, but never copied direct code from Chat GPT, For example, I used ChatGTP to suggest various types of fonts which would be easy to read for people with dyslexia.
 
-* I used [Code Institute love running project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+4/courseware/e805068059af42af87681032aa64053f/1da6ad13213740f1855a51d30a2375b1/) As refrence at times to adhere to good coding practice, The code that i have copied at any point has be mentioned with a comment in my code 
+* I used [Code Institute love running project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+4/courseware/e805068059af42af87681032aa64053f/1da6ad13213740f1855a51d30a2375b1/) As refrence at times to adhere to good coding practice, The code that i have copied at any point has be mentioned with a comment in my code.
 
 ### Content
 
