@@ -10,6 +10,10 @@ Our Winston Churchill history page offers a unique and comprehensive exploration
 
 Whether you're a student, history enthusiast, or researcher, our platform provides the tools you need to delve deep into Churchill's enduring influence on global history. Join our community to connect with fellow history fans, participate in engaging discussions, and enhance your understanding of one of history's greatest leaders.
 
+The purpose of this website is to celebrate and share the life and legacy of Winston Churchill. It provides detailed information about his early, middle, and late life, highlighting his achievements, challenges, and contributions. Additionally, visitors can sign up to receive a daily newsletter, offering insights and interesting facts about Churchill's remarkable journey.
+
+
+
 ## CONTENTS
 
 * [User Experience](#user-experience-ux)
@@ -69,9 +73,6 @@ In my css files i have declared the colour codes to be used on my website.
 
 * I have used `#595959` & `#ffffff` `#rgb(0, 0, 0)` as the primary and secondary colours used for the sites text.
 * All other colours are imbeded in various images directly.
-
-
-  ![Winstons Fan Club colour scheme](documentation/color-scheme.webp)
 
 ### Typography
 
