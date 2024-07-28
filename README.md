@@ -1,114 +1,215 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Winstons Fan Club
 
-Welcome Ashley Goward,
+![Winstons Fan Club shown on a variety of screen sizes](screen size scaling)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Visit the deployed site: [Winstons Fan Club](https://ashley9368.github.io/Winstons-Fanclub-Project-1/)
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 28, 2024**
+Test your history knowledge about Winston Churchill?
 
-## Gitpod Reminders
+Our Winston Churchill history page offers a unique and comprehensive exploration of his life and legacy. By signing up, you'll gain exclusive access to a wealth of resources, including detailed biographies, rare photographs, and insightful articles.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Whether you're a student, history enthusiast, or researcher, our platform provides the tools you need to delve deep into Churchill's enduring influence on global history. Join our community to connect with fellow history fans, participate in engaging discussions, and enhance your understanding of one of history's greatest leaders.
 
-`python3 -m http.server`
+## CONTENTS
 
-A blue button should appear to click: _Make Public_,
+* [User Experience](#user-experience-ux)
 
-Another blue button should appear to click: _Open Browser_.
+* [Design](#design)
+  * [Colour Scheme](#colour-scheme)
+  * [Typography](#typography)
+  * [Imagery](#imagery)
+  * [Wireframes](#wireframes)
+  * [Features](#features)
+    * [The Home Page](#the-home-page)
+    * [Future Implementations](#future-implementations)
+  * [Accessibility](#accessibility)
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+  * [Languages Used](#languages-used)
+  * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
 
-A blue button should appear to click: _Make Public_,
+* [Deployment & Local Development](#deployment--local-development)
+  * [Deployment](#deployment)
+  * [Local Development](#local-development)
+    * [How to Fork](#how-to-fork)
+    * [How to Clone](#how-to-clone)
 
-Another blue button should appear to click: _Open Browser_.
+* [Testing](#testing)
+  * [Solved Bugs](#solved-bugs)
+  * [Known Bugs](#known-bugs)
+  
+* [Credits](#credits)
+  * [Code Used](#code-used)
+  * [Content](#content)
+  * [Media](#media)
+  * [Acknowledgments](#acknowledgments)
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## User Experience (UX)
 
-To log into the Heroku toolbelt CLI:
+#### First Time Visitor Goals
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+* I want to take part in a history website online and improve my knowledge of Churchill.
+* I want the site to be responsive to my device.
+* I want the site to be easy to navigate.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+#### Returning Visitor Goals
 
-------
+* I want them to be able to look at specific aspects of Churchill’s life and know how to navigate to pages which have things relating to their specific interests.
 
-## Release History
+#### Frequent Visitor Goals
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+* I want to be able to sign up to become part of Churchills fan club.
 
-**May 28 2024:** Fix Mongo and Links installs
+## Design
 
-**April 26 2024:** Update node version to 16
+### Colour Scheme
 
-**September 20 2023:** Update Python version to 3.9.17.
+I have gone with the black and white theme to represent photography in World War 2 in which Churchills career had really taken off.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+In my css files i have declared the colour codes to be used on my website. 
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+* I have used `#595959` & `#ffffff` `#rgb(0, 0, 0)` as the primary and secondary colours used for the sites text.
+* All other colours are imbeded in various images directly.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+  ![Winstons Fan Club colour scheme](documentation/color-scheme.webp)
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+### Typography
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+Google Fonts was used to import the chosen fonts for use in the site.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+* For the Page Title I have used the google font [bebas-neue](https://fonts.google.com/specimen/Bebas+Neue?preview.text=Winstons%20Fan%20Club&preview.text_type=custom&query=bebas). I chose bebas-neue because it is a clear font that looks clear on all screen sizes.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+![bebas-neue-regular](assets/images/bebas-neue-regular.png)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+* For the body of the page I have used the google font [Lato](https://fonts.google.com/specimen/Lato?preview.text=Winstons%20Fan%20Club&preview.text_type=custom&query=lato). i chose lato because again it is easily readable clear and clean.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+![Quicksand Font Example](assets/images/bebas-neue-regular.png)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Imagery
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+As this is the Churchill fan club i have used images of churchill a different stages of his life.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Wireframes
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Wireframes were created for desktop using balsamiq.
 
-------
+![Home Page](assets/images/bal-home-desktop.png)
+![History page](assets/images/bal-history-desktop.png)
+![signup page](assets/images/bal-signup-desktop.png)
+![Thank you page](assets/images/bal-thankyou-desktop.png)
 
-## FAQ about the uptime script
+### Features
 
-**Why have you added this script?**
+The website is comprised of a home page, a history page, and a signup page, and a basic thank you page for those who sign up.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+All Pages on the website are responsive and have:
 
-**How will this affect me?**
+* A favicon in the browser tab.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+  ![favicon](assets/images/favy.png)
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+* The title of the site at the top of every page. This title also acts as a link back to the home page.
+  ![Winstons Fan Club](assets/images/home.png)
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+#### The Home Page
 
-**So….?**
+The home page of Winstons Fan Club displays the sites name as a title in bold text, navbar imbeded links to sub pages. It also has links to the signup and explore more history.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+![Home page image](assets/images/home-page.png)
 
-**Can I opt out?**
+The history page consists of more information about Winston Churchill at different stages in his life.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+![History page image](assets/images/history-page.png)
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+The signup page consists of a signup form to signup for daily emails about Churchill and the Club.
 
-**Anything more?**
+![Signup page image](assets/images/signup-page.png) 
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+#### Future Implementations
 
----
+In future implementations I would like to:
 
-Happy coding!
+1. I would like to add an interactive timeline, to let visitors explore a more interactive approach to history.
+2. I would like to make the home page more welcoming, And add more sub pages regarding specific important events in Churchill's life.
+3. I'd like to add a custom cursor when you hover over buttons. 
+4. I would like to add a video of one of Churchill's speeches.
+5. I would also like a much better thank you page.
+
+### Accessibility
+
+I have included image-to-text to improve accessability for visually impaired visitors.
+
+* All of the fonts used are part of the san serif font family to help those with dyslexia to read more clearly.
+* I have used similar colours throughout the site to provide the same experience for colour blind users.
+
+![alt text](assets/images/alt-text.png)
+
+### Languages Used
+
+HTML, CSS
+
+### Frameworks, Libraries & Programs Used
+
+* [Balsamiq](https://balsamiq.com/) - Used to create wireframes.
+
+* [Github](https://github.com/) - To save and store the files for the website.
+
+* [GitPod](https://gitpod.io/) - IDE used to create the site.
+
+* [Google Fonts](https://fonts.google.com/) - To import the fonts used on the website.
+
+* [Google Developer Tools](https://developers.google.com/web/tools) - To troubleshoot and test features, solve issues with responsiveness and styling.
+
+* [Favicon.io](https://favicon.io/) To create favicon.
+
+### Deployment
+
+The site is deployed using GitHub Pages - [Winstons Fan Club](https://ashley9368.github.io/Winstons-Fanclub-Project-1/).
+
+## Testing
+
+### Solved Bugs
+
+| No | Bug | How I solved the issue |
+| :--- | :--- | :--- |
+| 1 | I had an issue with responsiveness on pages of different devices because i had written the media queries wrong, I have fixed those issue by rewritting various code across all media queries |
+
+### Known Bugs
+
+* Known bug: Title - If you click left or right of the title on any page, it sends the user back to the homepage. I intend to fix this so that only clicking on the actual title text redirects the user to the homepage.
+
+  ![Touch Button Colour](assets/images/known-bug.png)
+
+## Credits
+
+### Code Used
+
+* I used [Chat GPT](https://openai.com/index/chatgpt/) To help when i was unsure what elements to use, but never copied direct code from Chat GPT, For example, I used ChatGTP to suggest various types of fonts which would be easy to read for people with dyslexia, and if i had got stuck on something i would ask which code i was missing or how can i achieve x.
+
+* I used [Code Institute love running project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+4/courseware/e805068059af42af87681032aa64053f/1da6ad13213740f1855a51d30a2375b1/) As refrence at times to adhere to good coding practice, The code that i have copied at any point has be mentioned with a comment in my code.
+
+### Content
+
+Except where mentioned content was created by me, except for images which were found on google, and historical facts that were generated from Chat GPT.
+
+### Media
+
+[Image on home page](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Sir_Winston_S_Churchill.jpg/1200px-Sir_Winston_S_Churchill.jpg)
+
+[Image on history page of young churchill](https://qph.cf2.quoracdn.net/main-qimg-fc196db16dcd9211403a84c827b3fc42-lq)
+[Image on history page of adult chuchill](https://archives.chu.cam.ac.uk/wp-content/uploads/sites/2/2022/01/CHUR-1-103tn.jpg)
+[Image on history page of later life churchill](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2id3sVkOKr2l33fJwhOqbYXTQFS3vzDS3LQ&s)
+
+[Image on signup page of churchill](https://i.ebayimg.com/images/g/rsQAAOSwIWZh6EhZ/s-l1600.webp) 
+
+### Acknowledgments
+
+I would like to acknowledge the following people:
+
+* Jubril Akolade - My Code Institute Mentor.
+
+* Kristen Cross - Another fellow on slack who has been a great help aligning me at times when ive been confused.
+
+* The code instutue tutor team, (Not all but to name afew) Mark, Roo, Holly, Oisin, Thomas.
+
+* The Code Institute Slack channel Peer Code Review - Thank you to everyone who took the time to play the quiz and look over the code.
